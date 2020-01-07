@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!-- Copyright 2020, Dawid Kurek <dawikur@gmail.com> -->
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Dawid Kurek's CV</title>
+	<meta name="description" content="Dawid Kurek's CV">
+	<meta name="author" content="Dawid Kurek">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="fa/css/all.css" rel="stylesheet">
+	<!-- script src="https://kit.fontawesome.com/4c9b2f6386.js" crossorigin="anonymous"></script -->
+
+	<style>
+
+	html {
+		background: #7a776f;
+	}
+
+	body {
+		background: white;
+		box-shadow: 1px 1px 5px 2px rgba(0,0,0,.3);
+		box-sizing: border-box;
+		color: #282828;
+		font: 16px Calibri, sans-serif;
+		margin: 1em auto;
+		padding: 7em;
+		width: 60em;
+	}
+
+	a {
+		color: #5a8c8f;
+	}
+
+	.text {
+		text-align: justify;
+	}
+
+	h1 {
+		font-family: Cambria, serif;
+		font-size: 150%;
+	}
+
+	header {
+		border-bottom: 2px solid #d8d1bf;
+		padding-left: 10em;
+		padding-bottom: 2em;
+	}
+
+	header h1 {
+		font-size: 300%;
+	}
+
+	header p {
+		margin: 0;
+	}
+
+	section {
+		border-bottom: 1px solid #d8d1bf;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul li {
+		border-bottom: 1px solid #cac4b3;
+	}
+
+	ul li p:nth-child(1) {
+		float: left;
+		font-size: 110%;
+		font-weight: bold;
+		margin: 0;
+	}
+
+	ul li p:nth-child(2) {
+		font-weight: bold;
+		padding-left: 10em;
+	}
+
+	ul li p:nth-child(3) {
+		font-weight: bold;
+		padding-left: 10em;
+	}
+
+	ul li p:last-child {
+		padding-left: 10em;
+		font-weight: normal;
+	}
+
+	@media (max-width: 63em) {
+		body {
+			width: calc(100% - 2em);
+		}
+	}
+
+	@media (max-width: 900px) {
+		body {
+			font-size: 13px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		body {
+			font-size: 11px;
+		}
+	}
+
+	@media (max-width:500px) {
+		body {
+			font-size: 9px;
+		}
+	}
+
+	@media print {
+		html {
+			background: none;
+		}
+
+		body {
+			box-shadow: none;
+		}
+
+		a {
+			color: #282828;
+		}
+
+		footer {
+			display: none;
+		}
+	}
+
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<h1>Dawid Kurek</h1>
+		<p>
+			<i class="far fa-envelope"></i>
+			<a href="mailto:dawikur@gmail.com">dawikur@gmail.com</a>
+		</p>
+		<p>
+			<i class="fab fa-github"></i>
+			<a href="https://github.com/dawikur">dawikur</a>
+		</p>
+		<p>
+			<i class="fab fa-linkedin"></i>
+			<a href="https://linkedin.com/in/dawikur">dawikur</a>
+		</p>
+	</header>
+
+	<section>
+		<h1>Experience</h1>
+		<ul>
+			<li>
+				<p>08.2014 - Present</p>
+				<p>DisplayLink (Poland)</p>
+				<p>Senior Software Development Engineer (C++)</p>
+				<p class="text">
+					<strong>C++11/14</strong> on <strong>Windows</strong> (some
+					use of WinAPI), <strong>Linux</strong>, <strong>macOS
+					</strong> and <strong>ChromeOS</strong>. Use of <strong>STL
+					</strong> and some use of <strong>Boost</strong>. <strong>
+					Linux Kernel</strong> module in <strong>C</strong>. Thin
+					layer in <strong>Objective-C</strong> on <strong>macOS
+					</strong>. Automated tests in <strong>python</strong> on
+					all platforms and <strong>Swift</strong> on <strong>macOS
+					</strong>.
+
+					</br>
+					</br>
+
+					We are creating features or porting them from Windows to
+					Linux/macOS/ChromeOS. It often starts from designing (if
+					porting then with team which wrote the feature). Development
+					includes unit tests, system tests (c++ with gtest/gmock)
+					and automated tests (python). We also make firmware for
+					the devices. Work often starts from failing automated test
+					and ends up fixing problem in firmware. We have also
+					contact with end-users, clients, marketing and engineers
+					from companies we are cooperating with.
+				</p>
+			</li>
+			<li>
+				<p>07.2011 - 08.2014</p>
+				<p>Future Processing</p>
+				<p>Software development (C++)</p>
+				<p class="text">
+					Research, implementation and maintenance new/old features.
+					I worked close to <strong>WinAPI</strong>, extensively
+					using <strong>Boost</strong>, <strong>STL</strong>.
+
+					</br>
+					</br>
+
+					We were creating back-end application (windows service) for
+					PC management. Whole system contained web-application,
+					management application (.Net) and user-client (C++).
+					Communication between them was thou TCP/IP by encrypted
+					packages in XML format (they were validated against XSD).
+				</p>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h1>Education</h1>
+		<ul>
+			<li>
+				<p>01.2013 - 10.2015</p>
+				<p>Silesian University of Technology</p>
+				<p>Master of Engineering</p>
+				<p class="text">
+					Faculty of Automatic control, Electronics and Computer
+					Science
+
+					</br>
+					</br>
+
+					<strong>Specialty</strong>: Interactive Graphics Rendering
+
+					</br>
+
+					<strong>Thesis</strong>: Analysis and implementation of
+					compile-time container using metaprograming techniques in
+					C++.
+				</p>
+			</li>
+			<li>
+				<p>10.2009 - 01.2013</p>
+				<p>Silesian University of Technology</p>
+				<p>Bachelor of Engineering</p>
+				<p class="text">
+					Faculty of Automatic control, Electronics and Computer
+					Science
+
+					</br>
+					</br>
+
+					<strong>Specialty</strong>: Computer Science Specialty –
+					Industrial systems
+				</p>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h1>Technical skills</h1>
+		<ul>
+			<li>
+				<p>C++</p>
+				<p>14/17, STL, Boost, Template Metaprogramming, WinAPI</p>
+			</li>
+			<li>
+				<p>Unix</p>
+				<p>Terminal, Bash, Vim, Gdb/Lldb</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Algorithms</p>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h1>Languages</h1>
+		<ul>
+			<li>
+				<p>Polish</p>
+				<p>Native</p>
+			</li>
+			<li>
+				<p>English</p>
+				<p>B2</p>
+			</li>
+			<li>
+				<p>C++</p>
+				<p>Advanced</p>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h1>Professional interests</h1>
+		<ul>
+			<li>
+				<p></p>
+				<p>Metaprogramming</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Functional Programming</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Data Oriented Design</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Code Formatting for Better Readability</p>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h1>Non-professional interests</h1>
+		<ul>
+			<li>
+				<p></p>
+				<p>Mechanical Keyboards</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Triathlon</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Ultra Trial Running</p>
+			</li>
+			<li>
+				<p></p>
+				<p>Healthy Lifestyle</p>
+			</li>
+		</ul>
+	</section>
+
+	<footer>
+	</footer>
+
+</body>
+
+</html>
