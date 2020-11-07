@@ -95,6 +95,13 @@
 		font-weight: normal;
 	}
 
+	.web {
+		display: inline;
+	}
+	.print {
+		display: none;
+	}
+
 	@media (max-width: 63em) {
 		body {
 			width: calc(100% - 2em);
@@ -135,6 +142,13 @@
 		footer {
 			display: none;
 		}
+
+		.web {
+			display: none;
+		}
+		.print {
+			display: inline;
+		}
 	}
 
 	</style>
@@ -147,15 +161,18 @@
 		<h1>Dawid Kurek</h1>
 		<p>
 			<i class="far fa-envelope"></i>
-			<a href="mailto:dawikur@gmail.com">dawikur@gmail.com</a>
+			<a class="print" href="mailto:dawikur@gmail.com">dawikur@gmail.com</a>
+			<a class="web"   href="mailto:dawikur@gmail.com">dawikur [at] gmail.com</a>
 		</p>
 		<p>
 			<i class="fab fa-github"></i>
-			<a href="https://github.com/dawikur">dawikur</a>
+			<a class="print" href="https://github.com/dawikur">github.com/dawikur</a>
+			<a class="web"   href="https://github.com/dawikur">dawikur</a>
 		</p>
 		<p>
 			<i class="fab fa-linkedin"></i>
-			<a href="https://linkedin.com/in/dawikur">dawikur</a>
+			<a class="print" href="https://linkedin.com/in/dawikur">linkedin.com/in/dawikur</a>
+			<a class="web"   href="https://linkedin.com/in/dawikur">dawikur</a>
 		</p>
 	</header>
 
